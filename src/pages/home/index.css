@@ -1,0 +1,160 @@
+.container {
+  background-image: url("../../assets/images/IMG_Sample.png");
+  height: 53rem;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 53px;
+  padding: 60px 138px;
+}
+
+.header-container_left {
+  display: flex;
+}
+
+.img-logo {
+  height: 105px;
+  width: 307px;
+}
+
+.img-drawer {
+  height: 71px;
+  width: 94px;
+  margin-left: 2rem;
+}
+
+.header-container_right {
+  display: flex;
+  align-items: center;
+  padding: 2rem 7rem;
+}
+
+.header-container_right button {
+  background-color: transparent;
+  border-color: white;
+  border-width: 1px;
+  margin-left: 45px;
+  width: 285px;
+  height: 88px;
+  color: white;
+}
+
+.header-container_right span {
+  color: white;
+  margin-left: 26px;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: 'Inter';
+}
+
+.body-container {
+  color: white;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  font-family: center;
+  font-size: 108px;
+  font-weight: 700;
+  flex-direction: column;
+}
+
+.body-container span {
+  margin-bottom: 1rem;
+}
+
+.body-container h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 100px;
+  padding-left: 138px;
+  padding-right: 138px;
+}
+
+.food-1 {
+  height: 82rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.food-2 {
+  height: 82rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.body_food-1 {
+  width: 50%;
+  height: 400px;
+  padding-right: 50px;
+}
+
+.body_food-2 {
+  width: 50%;
+  height: 400px;
+  padding-left: 50px;
+}
+
+.body h5 {
+  font-size: 88px;
+  font-family: Rufina;
+  font-weight: 700;
+  line-height: 1.5;
+
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+
+}
+
+.body h6 {
+  font-size: 50px;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1.5;
+
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+
+}
+
+.body h4 {
+  font-size: 130px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 138px;
+
+}
+
+.body h3 {
+  font-size: 50px;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 1.5;
+  
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+
+}
